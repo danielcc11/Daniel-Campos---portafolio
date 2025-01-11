@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Daniel Campos</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="footer.css">
+
+</head>
+
+<body>
+    <!--BARRA DE NAVEGACIÓN-->
+    <nav class="navbar sticky-top navbar-expand-sm navbar-dark navegador">
+        <a href="#" class="navbar-brand nombre-marca">Daniel Campos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navegadorprincipal" aria-controls="navegadorprincipal" aria-expanded="false" aria-label="Menú">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navegadorprincipal">
+            <div class="navbar-nav">
+                <a href="#seccionPortafolio" class="nav-item nav-link">Portafolio</a>
+                <a href="#seccionContacto" class="nav-item nav-link">Contacto</a>
+                <a href="#seccionSobreMi" class="nav-item nav-link">Sobre mí</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECCIÓN BIO -->  
+<div class="jumbotron jumbotron-fluid text-center cabecera">  
+    <div style="max-width: 150px; margin: auto;">
+        <img src="1736544993542.jpg" alt="Foto de Daniel Campos" class="img-thumbnail rounded-circle">
+    </div>
+    <div class="container rounded bio-container">
+        <h1 class="display-4 nombre-marca">Daniel Campos</h1>  
+        <div class="social-buttons">
+            <a href="https://www.instagram.com/_danielcc11" class="btn btn-dark" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://www.facebook.com/ricardoantoniomx" class="btn btn-dark" target="_blank">
+                <i class="fab fa-facebook"></i> Facebook
+            </a>
+            <a href="https://github.com/danielcc11" class="btn btn-dark" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+        <p class="lead">Programador junior de Python, escritor y estudiante universitario.</p>  
+    </div>  
+</div>
+
+ <!-- SECCIÓN SOBRE MÍ -->
+    <div class="container-fluid" id="seccionSobreMi">
+        <h2 class="text-center">Sobre mí</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="lead">
+                    Soy Venezolano, oriundo de Ciudad Ojeda estado Zulia. Tengo 25 años y además de estudiar programación soy un amante del deporte, en especial el fútbol. Me formé en educación inicial, básica y media general, en la Unidad Educativa Privada Adventista Libertador, donde obtuve el título de bachiller en ciencias. Me apasiona escribir poesía y narrativa, busco compartir con los demás lo bonito y valioso de la literatura.  
+                </p>
+                <p>
+                    Actualmente, estoy cursando estudios universitarios en administración de empresas y además estudio programación en python básico, con Javier Daza. Trabajo como personal administrativo en la Universidad Politécnica Territorial del Zulia y como socio implementador de WFP (Programa mundial de alimentos, en español). Sinceramente busco expandir mis conocimientos en la programación y me he dado cuenta del gran reto que significa diariamente. Me gusta explorar temas y obtener nuevos conocimientos siempre que puedo, acostumbro a exigirme al máximo para realizar un trabajo impecable. Por ahora, cuento con conocimientos básicos, pero mi meta es llegar a un nivel de conocimiento que me permita realizar trabajos más avanzados.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+  <!-- SECCIÓN PORTAFOLIO -->  
+<div class="container-fluid" id="seccionPortafolio">  
+    <h2 class="text-center">Portafolio</h2>  
+    <div class="row">  
+        <!-- Proyecto 1 -->  
+        <div class="col-md-6">  
+            <div class="portfolio-item" style="background-image: url('descarga.png');">  
+                <a href="https://github.com/danielcc11/spotipy" class="btn btn-primary portfolio-button" target="_blank">  
+                    Spotipy  
+                </a>  
+            </div>  
+        </div>  
+
+        <!-- Proyecto 2 -->  
+        <div class="col-md-6">  
+            <div class="portfolio-item" style="background-image: url('descarga (2).jpeg');">  
+                <a href="https://github.com/danielcc11/saludos-py" class="btn btn-primary portfolio-button" target="_blank">  
+                    Saludos.py  
+                </a>  
+            </div>  
+        </div>  
+    </div>  
+</div>  
+
+
+<!-- Descripción del proyecto al pasar el ratón -->  
+<div class="tooltip" style="display: none;" id="project-tooltip"></div>
+
+<!-- SECCIÓN CONTACTO -->  
+<div class="container-fluid" id="seccionContacto">  
+    <h2 class="text-center">Contacto</h2>  
+    <div class="row">  
+        <div class="col-md-12 text-center">  
+            <p class="lead">Abajo puedes encontrar cómo contactarme, déjame un mensaje y trataré de responder lo más pronto posible</p>  
+            <div class="btn-container">  
+                <a href="https://www.instagram.com/_danielcc11" class="btn translucent-btn" target="_blank">  
+                    <i class="fab fa-instagram"></i>  
+                </a>  
+                <a href="https://www.facebook.com/daniel.campos.18041092?mibextid=ZbWKwL" class="btn translucent-btn" target="_blank">  
+                    <i class="fab fa-facebook"></i>  
+                </a>  
+                <a href="https://github.com/danielcc11" class="btn translucent-btn" target="_blank">  
+                    <i class="fab fa-github"></i>  
+                </a>  
+            </div>  
+        </div>  
+    </div>  
+</div>
+
+<footer class="footer text-center">  
+    <p class="tm-copyright-text">Copyright © 2025 Daniel Campos - Todos los derechos reservados.</p> 
+
+    <div class="btn-container">  
+        <a href="https://www.instagram.com/_danielcc11" class="btn translucent-btn" target="_blank">  
+            <i class="fab fa-instagram"></i>  
+        </a>  
+        <a href="https://www.facebook.com/daniel.campos.18041092?mibextid=ZbWKwL" class="btn translucent-btn" target="_blank">  
+            <i class="fab fa-facebook"></i>  
+        </a>  
+        <a href="https://github.com/danielcc11" class="btn translucent-btn" target="_blank">  
+            <i class="fab fa-github"></i>  
+        </a>  
+    </div>  
+</footer>
+
+<!-- Scripts de Bootstrap y Font Awesome -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>  
+    const buttons = document
+</body>
+
+</html>

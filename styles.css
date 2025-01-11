@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.navegador {
+    background-color: rgb(46, 65, 107);
+}
+
+.cabecera {
+    background-image: url(https://farm8.staticflickr.com/7317/9440858964_93a59c5697_o_d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.bio-container {  
+    position: relative; /* Permite que se utilice posicionamiento relativo */  
+    padding: 20px; /* Espacio alrededor del texto */  
+    text-align: center; /* Centra el texto */
+}  
+
+.bio-container {
+    background-color: rgba(255, 255, 255, 0.514);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+    z-index: 1; 
+}  
+
+.bio-container img {
+    max-width: 150px; /* Ajusta a un tamaño apropiado */
+    width: 100%;
+    height: auto; /* Mantiene la proporción */
+    border-radius: 50%; /* También asegura que la imagen sea redonda */
+}
+
+.bio-title {
+    color: white; /* Cambia el color del título a blanco para mejor contraste */
+    position: relative;
+    z-index: 2; /* Asegura que el texto esté por encima de la franja */  
+    background-color: rgba(0, 0, 0, 0.7); /* Franja semitransparente */
+    padding: 10px; /* Espaciado alrededor del texto */
+    display: inline-block; /* Hace que el fondo se ajuste al tamaño del texto */
+    border-radius: 8px; /* Bordes redondeados para la franja */
+}
+
+.bio-container h1 {  
+    color: #000000; /* Cambia el color del título a gris fuerte */  
+    position: relative;  
+    z-index: 2; /* Asegura que el texto esté por encima de la franja */  
+}  
+
+.bio-container p.lead {  
+    color: #000000; /* Cambia el color de la descripción a blanco */
+    position: relative;  
+    z-index: 2; /* Asegura que el texto esté por encima de la franja */  
+}  
+
+.jumbotron {
+    padding: 10px; /* Ajusta el padding si es necesario */
+}
+
+#seccionPortafolio {
+    padding-top: 30px;
+    background-color: #0e1238;
+    background-image: url('https://cdn.jsdelivr.net/gh/gatsbyjs/gatsby/dist/spotify-logo.svg');
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    .portfolio-item {
+    height: 300px; /* Altura de los elementos de portafolio */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro para mejorar la visibilidad del texto */
+    z-index: 1;
+}
+
+.portfolio-button {
+    position: relative;
+    z-index: 2;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 123, 255, 0.8); /* Color del botón con transparencia */
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio-button:hover {
+    background-color: rgba(0, 86, 179, 0.8); /* Color del botón al pasar el ratón */
+}
+
+}
+
+#seccionPortafolio h2 {
+    color: white; /* El nuevo color */
+}
+
+.card {
+    border-radius: 15px; /* Bordes redondeados */
+    overflow: hidden; 
+}
+
+.card img {
+    border-top-left-radius: 15px; /* Bordes superiores redondeados */
+    border-top-right-radius: 15px; /* Bordes superiores redondeados */
+}
+
+#seccionContacto {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(35, 41, 53);
+    color: whitesmoke;
+}
+
+.nombre-marca {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h2 {  
+    margin: 30px;  
+    color: white;  
+    font-family: 'Pacifico', cursive;  
+}  
+
+.portfolio-button {  
+    position: relative;  
+    margin: 10px 0;  
+    font-size: 1.5em; /* Ajusta el tamaño del texto */  
+}  
+
+.tooltip {  
+    position: absolute;  
+    background-color: rgba(0, 0, 0, 0.8);  
+    color: white;  
+    padding: 5px 10px;  
+    border-radius: 5px;  
+    z-index: 1000;  
+    white-space: nowrap;  
+}  
