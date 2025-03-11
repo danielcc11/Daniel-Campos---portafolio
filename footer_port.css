@@ -1,6 +1,6 @@
 .footer {  
-    background-color: #212529; /* Color de fondo oscuro */  
-    color: #ffffff; /* Color del texto */  
+    background-color: rgba(30, 30, 30, 0.9); /* Fondo gris plomo casi negro */  
+    color: #ffffff; /* Color del texto en blanco */  
     padding: 20px 0; /* Espaciado en el footer */  
     text-align: center; /* Centrar el contenido del footer */  
 }  
@@ -10,8 +10,21 @@
     color: #fff; /* Color del texto */  
     transition: background-color 0.3s ease; /* Transición suave para el efecto */  
     margin: 10px; /* Margen entre botones */  
+    font-size: 1.5em; /* Aumenta el tamaño del texto */
+    padding: 10px 15px; /* Aumenta el padding */
 }  
 
 .translucent-btn:hover {  
     background-color: rgba(255, 255, 255, 0.5); /* Fondo más claro al pasar el mouse */  
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el ratón */
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.footer a {
+    color: #ffffff; /* Color del texto */
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffcc00; /* Cambia a un color más brillante al pasar el ratón */
 }
